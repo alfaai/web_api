@@ -1,7 +1,4 @@
 import replicate
-import os
-
-os.environ["REPLICATE_API_TOKEN"] = "r8_OEBsu4B0R2mruCBeRyVpegtPOykFuSO15TLag"
 
 
 def sticker(prompt):
