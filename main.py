@@ -11,7 +11,7 @@ def sticker(prompt):
     return output
 
 
-@app.post("/pulid")
+@app.get("/pulid")
 def sticker(prompt, image):
     output = infrence.pulid(image, prompt)
     return output
