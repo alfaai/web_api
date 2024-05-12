@@ -5,13 +5,13 @@ import inference_replicate as infrence
 app = FastAPI()
 
 
-@app.get("/sticker")
+@app.post("/sticker")
 def sticker(prompt):
     output = infrence.sticker(prompt)
     return output
 
 
-@app.get("/pulid")
+@app.post("/pulid")
 def sticker(prompt, image):
     output = infrence.pulid(image, prompt)
     return output
